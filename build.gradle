@@ -4,14 +4,14 @@ plugins {
 }
 
 group 'pt.m0rais'
-version '1.0.0'
+version '1.1-SNAPSHOT'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile 'com.zaxxer:HikariCP:2.3.2'
+    compile 'com.zaxxer:HikariCP:4.0.3'
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
     compileOnly(files("libs/server1.8.jar")) // Using system path
