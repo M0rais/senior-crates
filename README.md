@@ -22,8 +22,8 @@ I'm using:
 ## Media
 #### Edit crate
 
-![Edit crate](https://media.giphy.com/media/fGX8pnJuTB4o5vXuh0/giphy.gif)
+![Edit crate](https://media.giphy.com/media/RrsFarLU9dWaukfopO/giphy.gif)
 
 #### Opening Crate
 
-![Opening crate](https://media.giphy.com/media/RrsFarLU9dWaukfopO/giphy.gif)
+![Opening crate](https://media.giphy.com/media/fGX8pnJuTB4o5vXuh0/giphy.gif)
