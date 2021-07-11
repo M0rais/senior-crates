@@ -1,0 +1,80 @@
+#MySQL stuff
+mysql:
+  host: "localhost"
+  database: "senior"
+  user: "root"
+  password: "123"
+
+#Max crates per day
+max-crates: 10
+#Delay per crate(seconds)
+delay: 5
+
+#Max items per crate
+items: 30
+
+messages:
+  only-players:
+    - "&cOnly players can use this command"
+  crate-not-found:
+    - "&cCrate not found"
+  sub-wrong-syntax:
+    - "&c/crate <%sub%> <id>"
+  crate:
+    args0:
+      - "&c/crate <create, delete, edit> <name> - Starts a specific progress"
+      - "&c/crate give <player> <crate> <amount> - Give x crates"
+    sub-command-not-found:
+      - "&c/crate <create, delete, edit> <name> - Starts a specific progress"
+      - "&c/crate give <player> <crate> <amount> - Give x crates"
+    need-perm:
+      - "&cYou don't have permission. &7(crates.admin.%sub%)"
+  give:
+    sender:
+      - "&aYou sent x%amount% crates of %crate% to %player%"
+    target:
+      - "&aYou received x%amount% crates of %crate%"
+    wrong-syntax:
+      - "&c/crate give <player> <crate> <amount>"
+    player-not-found:
+      - "&cPlayer not found"
+    invalid-amount:
+      - "&cInvalid amount (0-64)"
+  open:
+    delay:
+      - "&cYou're on delay"
+    day-delay:
+      - "&cYou're on day delay"
+    empty-crate:
+      - "&cThere's no prizes."
+    cancel:
+      - "&cOpen crate was cancelled"
+    quit:
+      - "&cYou left without the prize."
+    success:
+      - "&aYou found: %item_name% &awith %item_chance%%."
+  edit:
+    wrong-chance:
+      - "&cWrong change, you must type a value between 0 and 100."
+    digit-chance:
+      - "&aWrite the chance for %id%."
+    chance:
+      - "&aThe %id% now has %chance%."
+    invalid-chance:
+      - "&cThe change you wrote is invalid"
+    remove-prize:
+      - "&cPrize removed."
+  delete:
+    cancel:
+      - "&cYou cancelled the crate deletion"
+    success:
+      - "&aCrate removed."
+  create:
+    already-exists:
+      - "&cCrate id already in use"
+    cancel:
+      - "&cYou cancelled the create creation"
+    success:
+      - "&aCrate created"
+    invalid-item:
+      - "&cThe item you're holding is not valid!"

@@ -1,0 +1,7 @@
+name: SeniorCrates
+version: 1.0-SNAPSHOT
+main: pt.m0rais.crates.SeniorCrates
+author: Morais
+description: Crates plugin for senior team
+commands:
+  crate:
